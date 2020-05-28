@@ -6,5 +6,5 @@ def helloworldfunction(request):
     return returnobject
 
 
-class HelloWorldView(TemplateView):
+class HelloWorldClass(TemplateView):
     template_name = 'hello.html'
